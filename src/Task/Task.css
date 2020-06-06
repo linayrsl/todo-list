@@ -1,0 +1,12 @@
+button {
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.54);
+    font-family: "American Typewriter";
+}
+
+li {
+    list-style-type:none;
+    margin: 10px 0;
+}

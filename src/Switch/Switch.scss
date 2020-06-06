@@ -1,0 +1,63 @@
+.Switch {
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+    background: #3ea83f;
+    border: 2px solid #dddddd;
+    .handle {
+        float: left;
+        width: 24px;
+        height: 24px;
+        background: #ffffff;
+        border-radius: 7px;
+        margin: 3px;
+    }
+    &--disabled {
+        @extend .Switch;
+        background: #eeeeee;
+        opacity: 0.9;
+        .handle {
+            float: right;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//.handle {
+//    width: 60px;
+//    height: 20px;
+//    border-radius: 40px;
+//    background-color: lightgray;
+//
+//    button {
+//        position: absolute;
+//        right: auto;
+//        //left: 0;
+//        float: left;
+//        background-color: red;
+//        border-radius: 30%;
+//        width: 20px;
+//        height: 20px;
+//
+//        &.enableBtn {
+//            //left: 35px;
+//            float: right;
+//            background-color: green;
+//
+//        }
+//    }
+//}
+//
+//
+//
